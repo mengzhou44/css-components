@@ -1,0 +1,93 @@
+.image {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  margin-right: 50px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  background-color: #087f5b;
+  border-radius: 8px;
+
+  padding: 32px 48px 32px 86px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLeft {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%, -50%);
+}
+
+.buttonRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 32px;
+  color: #e6fcf5;
+}
+
+.author {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #c3fae8;
+}
+
+.job {
+  font-size: 12px;
+  color: #c3fae8;
+}
+
+.dots {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50px, 32px);
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+}
+
+.dotFill {
+  background-color: #087f5b;
+}
